@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ude Joshua - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Ude Joshua</h1>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeToggle"><i class="fas fa-moon"></i></button>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <h2>Hi, I'm Ude Joshua</h2>
+                <p>Frontend Developer | UI Designer</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-image">
+                <img src="C:\Users\USER\Desktop\protfiolio\media\soldierboy.jpg"style="width: 120px; height: auto;" alt="Udeh Joshua">
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Semantic markup, accessibility, SEO fundamentals</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Flexbox, Grid, animations, responsive design</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>DOM manipulation, ES6+, async programming</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div id="projects-container" class="projects-container">
+            <!-- Projects will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <section id="multimedia-showcase">
+            <h2>Multimedia Showcase</h2>
+            <h3>My Audio Greeting:</h3>
+            <audio controls>
+                <source src="C:\Users\USER\Desktop\protfiolio\media\my_intro_audio.mp3.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <h3>A Quick Project Video:</h3>
+            <video controls width="320" height="240">
+                <source src="C:\Users\USER\Desktop\protfiolio\media\my_project_video.mp4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://github.com/joshuacj-ux" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/_cjfromtheweb_?" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="udehjoshua411@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Udeh Joshua. All rights reserved.</p>
+         <p><strong>Contact:</strong> udehjoshua411@gmail.com | +234 906 157 2820</p>
+        <p><strong>Developer:</strong> Ude Joshua | Matric No: 24/15436</p>
+        <p><strong>Developer Department </strong>: Computer science </p>
+     <p><em>. No copyright infringement , if caught its a crime punishable by law.</em></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
